@@ -7,7 +7,7 @@ function App() {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    fetch('https://sua-api.onrender.com') // Substitua pela sua URL real
+    fetch('hhttps://exercicio-8-parte-1-1.onrender.com/')
       .then(response => {
         if (!response.ok) throw new Error('Erro na API');
         return response.json();
